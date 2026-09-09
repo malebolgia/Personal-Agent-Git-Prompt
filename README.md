@@ -2,6 +2,8 @@
 
 ![sgu identity switcher](blob/sgu.png)
 
+![gh cli switcher](blob/gh-switch.png)
+
 I created this tool for my own daily workflow to manage local AI development agents (like Claude, Gemini, and Codex) alongside my personal Git identity.
 
 This is my practicing workflow: I write GitHub Issues to provide task instructions and context for AI agents, accessing them via either the **GitHub CLI (`gh`)** or a **GitHub MCP server**. Switching my local Git identity before an agent runs guarantees that all generated commits carry the agent's dedicated credentials and SSH key, maintaining a clean and isolated git history.
